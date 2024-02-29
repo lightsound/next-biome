@@ -1,9 +1,7 @@
 import type { Preview } from "@storybook/react";
 import { initialize, mswLoader } from "msw-storybook-addon";
 
-initialize({
-	onUnhandledRequest: "bypass",
-});
+initialize({ onUnhandledRequest: "warn" });
 
 export default {
 	loaders: [mswLoader],

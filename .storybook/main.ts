@@ -21,6 +21,6 @@ export default {
 	},
 	features: {
 		// biome-ignore lint/style/useNamingConvention: APIがそうなっているので。
-		experimentalNextRSC: true,
+		experimentalRSC: true,
 	},
 } satisfies StorybookConfig;
